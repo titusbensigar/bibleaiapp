@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "BibleAIApp",
+    "slug": "bibleaiapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.titusbensigarorg.bibleaiapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.titusbensigarorg.bibleaiapp"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "35acda1b-030e-4805-afe4-0504a9868795"
+      }
+    },
+    "owner": "titus.bensigar-org",
+    "updates": {
+      "url": "https://u.expo.dev/35acda1b-030e-4805-afe4-0504a9868795"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
